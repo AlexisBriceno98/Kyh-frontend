@@ -1,0 +1,27 @@
+/*
+Justify-content: flext-start;
+Justify-content: flext-end;
+Justify-content: flext-center;
+Justify-content: space-between;
+Justify-content: space-around;
+Justify-content: space-evenly;
+
+align-items: flex-start;
+align-items: flex-end;
+align-items: center;
+align-items: stretch;
+*/
+
+#parent{
+    display: flex;
+    justify-content: space-between;
+    padding: 0;
+}
+
+.box{
+    border: 1px solid black;
+    width: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
